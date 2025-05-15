@@ -5,3 +5,6 @@
 
 Nacos Derby命令执行漏洞利用脚本，在原工具https://github.com/Wileysec/nacos_derby_rce
 的基础上进行了修改，支持打入 jMG 生成的内存马
+
+注意：-c/--memclass 参数值是jMG生成的内存马的注入器类名而不是内存马类名，如下图红框中的com.fasterxml.jackson.ek.ThreadUtil
+![image](https://github.com/user-attachments/assets/b64b60d5-4ded-46cb-a24d-e34c7581c86c)
